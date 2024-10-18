@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss#01</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header part start -->
+    <div class="pt-4 pb-4 fixed top-0 left-0 w-[100%]">
+        <div class="max-w-container m-auto flex">
+            <div class="w-[20%]">
+                <picture>
+                    <img src="image/Group 3.png" alt="Group 3.png">
+                </picture>
+            </div>
+            <div class="w-[60%]">
+                <ul class="flex justify-center pt-4 text-white">
+                    <li>
+                        <a href="#"  class="px-5 hover:text-btncolor font-inter text-lg">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-5 hover:text-btncolor font-inter text-lg">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-5 hover:text-btncolor font-inter text-lg">Service</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-5 hover:text-btncolor font-inter text-lg">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-5 hover:text-btncolor font-inter text-lg">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-[20%]">
+                <a href="#" class="py-[15px] px-10 inline-block rounded-lg bg-btncolor text-white font-inter text-xl font-semibold">contact</a>
+            </div>
+        </div>
+    </div>
+    <!-- header part end -->
+<!-- banner part start -->
+<div class="bg-bannerImage bg-no-repeat bg-center bg-cover">
+    <div class="bg-overlyBanner pt-[250px] pb-[150px]">
+        <div class="max-w-bannercontainer m-auto text-center">
+            <h1 class="text-bannerH1 text-white font-inter font-bold leading-bH1  pb-[50px]">We Help brands with high quality services</h1>
+
+            <p class="text-base text-white font-inter leading-6 px-[180px] pb-[40px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+
+            <a href="#" class="py-[15px] px-10 inline-block rounded-lg bg-btncolor text-white font-inter text-xl font-semibold">Get Started</a>
+        </div>
+    </div>
+</div>
+<!-- banner part end -->
+<!-- success part start -->
+<div class="py-[130px]">
+    <div class="max-w-container m-auto py-[50px] px-[20px] bg-bgscolor flex rounded-lg">
+        <div class="w-[40%]">
+            <p class="text-2xl font-medium font-inter text-btncolor py-2">Our Success</p>
+            <h4 class="text-4xl font-semibold font-inter text-bgspcolor pr-[120px]">West cost Brand makers-Global Edge</h4>
+        </div>
+        <div class="w-[20%]">
+            <h3 class="text-5xl text-bgspcolor font-inter font-bold py-5">200+</h3>
+            <p class="text-xl font-medium font-inter text-bgsp2color">Customer Satisfied</p>
+        </div>
+        <div class="w-[20%]">
+            <h3 class="text-5xl text-bgspcolor font-inter font-bold py-5">4.5</h3>
+            <p class="text-xl font-medium font-inter text-bgsp2color">200+ Avg rating</p>
+        </div>
+        <div class="w-[20%]">
+            <h3 class="text-5xl text-bgspcolor font-inter font-bold py-5">351+</h3>
+            <p class="text-xl font-medium font-inter text-bgsp2color">Project Delivered</p>
+        </div>
+    </div>
+</div>
+<!-- success part end -->
+<!-- service part start -->
+<div class="pt-[30px] pb-[20px]">
+    <h2 class="font-inter font-bold text-bgspcolor text-serviceH2 max-w-servicecontainerh2 m-auto">Our Provided Services</h2>
+    <p class="text-base font-inter text-bgsp2color max-w-servicecontainerp m-auto text-center pl-[10px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</p>
+</div>
+<div class="max-w-container m-auto py-[30px] flex">
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Group 22.png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">Web Design</h3>
+
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+<div class="w-[5%]"></div>
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Vector.png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">UI/UX Design</h3>
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+<div class="w-[5%]"></div>
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Group 23.png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">Web Development</h3>
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+</div>
+<div class="max-w-container m-auto pt-[30px] pb-[100px] flex">
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Frame.png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">Motion Graphics</h3>
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+<div class="w-[5%]"></div>
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Frame(1).png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">3D Animation</h3>
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+<div class="w-[5%]"></div>
+<div class="p-[30px] w-[30%] hover:shadow-2xl rounded-lg">
+    <picture><img src="image/Layer_x0020_1.png" alt="Group 22.png" class="pb-[30px] ml-[118px]"></picture>
+
+    <h3 class=" text-center font-bold font-inter text-2xl text-bgspcolor pb-[20px]">Digital Marketing</h3>
+
+    <p class=" text-center font-inter text-base text-bgsp2color pr-[24px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+</div>
+</div>
+<!-- service part end -->
+
+<!-- Recent work part start -->
+<div class="py-[100px] bg-slate-200">
+    <h2 class="font-inter font-bold text-bgspcolor text-serviceH2 max-w-workcontainer m-auto">Our Recent Work</h2>
+    <p class="text-base font-inter text-bgsp2color max-w-servicecontainerp m-auto text-center pl-[10px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</p>
+    <div class="max-w-container m-auto py-[30px] flex">
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/mobile pick.png" alt="Group 22.png"class="mt-[-6px]"></picture>
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">Task Management App</h3>
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        <div class="w-[5%]"></div>
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/Rectangle 29(2).jpg" alt="Group 22.png" class="mt-[-6px]"></picture>
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">Saas Landing Page Design</h3>
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        <div class="w-[5%]"></div>
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/Rectangle 29.png" alt="Group 22.png" class="mt-[-6px]"></picture>
+        
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">App Design</h3>
+        
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        </div>
+    <div class="max-w-container m-auto py-[30px] flex">
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/Rectangle 29(1).png" alt="Group 22.png"class="mt-[-6px]"></picture>
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">Landing Page Design</h3>
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        <div class="w-[5%]"></div>
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/rec5.png" alt="Group 22.png" class="mt-[-6px]"></picture>
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">Dashboard Design</h3>
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        <div class="w-[5%]"></div>
+        <div class="pb-[30px] w-[30%] bg-white rounded-lg">
+            <picture><img src="image/Rectangle 29(3).png" alt="Group 22.png" class="mt-[-6px]"></picture>
+            <h3 class=" text-center font-bold font-inter text-xl text-bgspcolor py-[20px]">Web App Design/h3>
+            <p class=" text-center font-inter text-base text-bgsp2color px-[40px]">This is a task management application that can help you be more </p>
+        </div>
+        </div>
+</div>
+<!-- Recent work part end -->
+<!-- Choose Agenc part start -->
+<div class="py-[80px] bg-white" >
+    <h2 class="font-inter font-bold text-bgspcolor text-serviceH2 max-w-workcontainer m-auto text-center leading-bH1 pb-[25px]">Why You Should Choose Agenc</h2>
+    <p class="text-base font-inter text-bgsp2color max-w-Agenccontainer m-auto text-center pl-[43px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+</div>
+<div class="max-w-container m-auto flex pb-[50px]">
+    <div class="w-[65%]">
+<div class=" flex justify-evenly pb-[100px]">
+    <div class="">  
+        <i class="fa-regular fa-lightbulb text-5xl text-lightcolor bg-lightImage"></i></picture>
+        <h2 class="text-2xl font-bold font-inter text-bgspcolor py-[10px]">Innovative Ideas</h2>
+        <p class="text-base font-inter text-bgsp2color pr-[110px]">Because each project is different, we adapt to your business model.</p>
+    </div>
+        <div class="">  
+        <i class="fa-regular fa-lightbulb text-5xl text-lightcolor bg-lightImage"></i></picture>
+        <h2 class="text-2xl font-bold font-inter text-bgspcolor py-[10px]">Innovative Ideas</h2>
+        <p class="text-base font-inter text-bgsp2color pr-[110px]">Because each project is different, we adapt to your business model.</p>
+    </div>
+</div>
+<div class=" flex justify-evenly pb-[100px]">
+    <div class="">  
+        <i class="fa-solid fa-headset text-5xl text-btncolor"></i></picture>
+        <h2 class="text-2xl font-bold font-inter text-bgspcolor py-[10px]">Dedicated Support</h2>
+        <p class="text-base font-inter text-bgsp2color pr-[110px]">We provide 24/7 support for all our clients and serve them professionally.</p>
+    </div>
+        <div class="">  
+            <i class="fa-solid fa-headset text-5xl text-btncolor"></i></picture>
+        <h2 class="text-2xl font-bold font-inter text-bgspcolor py-[10px]">Dedicated Support</h2>
+        <p class="text-base font-inter text-bgsp2color pr-[110px]">We provide 24/7 support for all our clients and serve them professionally.</p>
+    </div>
+</div>
+    </div>
+    <div class="w-[5%]"></div>
+    <div class="w-[30%]">
+        <picture><img src="image/000000.png" alt="image.png"></picture>
+    </div>
+</div>
+<!-- Choose Agenc part end -->
+<!-- clint part start -->
+<div class="py-[50px]">  
+    <h2 class="font-inter font-bold text-bgspcolor text-serviceH2 max-w-servicecontainerh2 m-auto text-center leading-bH1 pb-[25px]">Some Client Reviews</h2>
+    <p class="text-base font-inter text-bgsp2color max-w-servicecontainerp m-auto text-center pl-[10px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</p></div>
+
+
+<div class="max-w-container m-auto flex py-[100px]">
+    <div class="w-[30%] flex hover:bg-clinthovercolor p-[30px] rounded-lg">
+        <div class="">
+            <i class="fa-solid fa-angle-left p-[10px] rounded-full text-white bg-blue-800 mr-[10px] mt-[120px]"></i>
+        </div>
+        <div class="">
+            <i class="fa-solid fa-quote-left text-7xl text-btncolortow"></i>
+            <p class="text-base font-inter text-bgsp2color py-[15px] pr-[12px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+            <picture><img src="image/Group 1314.png" alt="img.png" class="py-[10px]"></picture>
+            <div class="flex">
+                <picture><img src="image/Ellipse 31.png" alt="image.png" class="pr-[10px]"></picture>
+                <div class=""> 
+                    <p class="font-semibold font-inter text-xl text-bgspcolor">Eric Drake</p>
+                    <span class="text-base font-inter text-bgsp2color">Digital Marketor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="w-[5%]"></div>
+
+    <div class="w-[30%] flex hover:bg-clinthovercolor p-[30px] rounded-lg">
+        <div class="">
+            <i class=" p-[10px] rounded-full mr-[10px] mt-[120px]"></i>
+        </div>
+        <div class="">
+            <i class="fa-solid fa-quote-left text-7xl text-btncolortow"></i>
+            <p class="text-base font-inter text-bgsp2color py-[15px] pr-[12px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+            <picture><img src="image/Group 1314.png" alt="img.png" class="py-[10px]"></picture>
+            <div class="flex">
+                <picture><img src="image/Ellipse 31.png" alt="image.png" class="pr-[10px]"></picture>
+                <div class=""> 
+                    <p class="font-semibold font-inter text-xl text-bgspcolor">Eric Drake</p>
+                    <span class="text-base font-inter text-bgsp2color">Digital Marketor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-[5%]"></div>
+    <div class="w-[30%] flex hover:bg-clinthovercolor p-[30px] rounded-lg">
+        <div class="">
+            <i class="fa-solid fa-quote-left text-7xl text-btncolortow"></i>
+            <p class="text-base font-inter text-bgsp2color py-[15px] pr-[12px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+            <picture><img src="image/Group 1314.png" alt="img.png" class="py-[10px]"></picture>
+            <div class="flex">
+                <picture><img src="image/Ellipse 31.png" alt="image.png" class="pr-[10px]"></picture>
+                <div class=""> 
+                    <p class="font-semibold font-inter text-xl text-bgspcolor">Eric Drake</p>
+                    <span class="text-base font-inter text-bgsp2color">Digital Marketor</span>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <i class="fa-solid fa-angle-right p-[10px] rounded-full text-white bg-blue-800 mr-[10px] mt-[120px]"></i>
+        </div>
+    </div>
+</div>
+<!-- clint part end -->
+<!-- sing part start -->
+<div class="py-[100px] bg-singbgColor">
+    <div class="flex max-w-container m-auto">
+    <div class="w-[50%]">
+        <div class="p-[50px]">
+            <h2 class="font-bold  text-serviceH2 font-inter text-bgspcolor leading-bH1 pr-[90px] pb-[15px]">We Do design, Code & Development</h2>
+            <p class="text-base font-inter text-bgsp2color pr-[80px] pb-[10px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+            <span class="text-base font-inter text-bgsp2color pr-[50px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</span>
+        </div>
+    </div>
+    <div class="w-[5%]"></div>
+    <div class="w-[45%]">
+        <div class="bg-white w-[400px] h-[450px] rounded-lg">
+            <h2 class="py-[20px] text-center font-bold font-inter text-bgspcolor text-3xl">Get a free quote now</h2>
+            <div class="px-[40px]">
+                <p class="text-base font-medium font-inter text-bgspcolor pb-[10px] ">Name</p>
+                <input type="text" placeholder="Enter your name" class="w-[300px] h-[50px] border-2 text-base p-[15px] font-inter rounded-lg">
+                <p class="text-base font-medium font-inter text-bgspcolor py-[7px]">Email</p>
+                <input type="email" placeholder="Enter your email" class="w-[300px] h-[50px] border-2 text-base p-[15px] font-inter rounded-lg" >
+                <p class="text-base font-medium font-inter text-bgspcolor py-[7px]">Phone</p>
+                <input type="text" placeholder="Enter your phone number" class="w-[300px] h-[50px] border-2 text-base p-[15px] font-inter rounded-lg">
+                <a href="#" class="py-[10px] px-[75px] inline-block rounded-lg bg-btncolor text-white font-inter text-xl font-semibold mt-[25px]">Get Pricing Now</a>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+<!-- sing part end -->
+
+<!-- footer part start -->
+<div class="max-w-container m-auto py-[80px]">
+    <div class="flex">
+        <div class="w-[32%]">
+            <picture><img src="image/Group 3.png" alt="img.png" class="pb-[25px]"></picture>
+            <p class="text-base font-inter text-bgsp2color pr-[80px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+        <div class="w-[17%]">
+            <h2 class="font-bold  text-xl font-inter text-bgspcolor pb-[35px]">About</h2>
+            <p class="text-base font-inter text-bgsp2color pr-[130px]">About Us
+                Features
+                News
+                Careers</p>
+        </div>
+        <div class="w-[17%]">
+            <h2 class="font-bold  text-xl font-inter text-bgspcolor pb-[35px]">Company</h2>
+            <p class="text-base font-inter text-bgsp2color pr-[102px]">Our Team
+                Partner With Us
+                FAQ</p>
+                <span class="text-base font-inter text-bgsp2color">Blog</span>
+        </div>
+        <div class="w-[17%]">
+            <h2 class="font-bold  text-xl font-inter text-bgspcolor pb-[35px]">Support</h2>
+            <p class="text-base font-inter text-bgsp2color pr-[120px]">About
+                <span class="pr-[50px]">Support Center</span>
+                Feedback
+                Contact Us
+                Accesbility</p>
+        </div>
+        <div class="w-[17%]">
+            <h2 class="font-bold  text-xl font-inter text-bgspcolor pb-[35px]">Get in touch</h2>
+            <p class="text-base font-inter text-bgsp2color pr-[77px]">info@gmail.com
+                +88 0121 0212</p>
+        </div>
+        
+    </div>
+</div>
+<!-- footer part end -->
+<div class="max-w-container m-auto text-center py-[30px] text-base font-inter text-bgsp2color border-y-2">
+    <p>All credit goes to @agence.com</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/tailwind.config.js"></script>
+</body>
+</html>
